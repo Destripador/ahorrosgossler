@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Luis Angel Alvarado Hernandez <luis.alvarado@crowe.mx>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>ahorrosgossler</id>
+    <name>Ahorros Gossler</name>
+    <summary>c</summary>
+    <description><![CDATA[c]]></description>
+    <version>0.0.4</version>
+    <licence>agpl</licence>
+    <author mail="luis.alvarado@crowe.mx" homepage="https://gossler-torreon.com">Luis Angel Alvarado Hernandez</author>
+    <namespace>AhorrosGossler</namespace>
+    <category>tools</category>
+    <bugs>https://gossler-torreon.com</bugs>
+    <dependencies>
+        <nextcloud min-version="25" max-version="28"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Ahorros Gossler</name>
+            <route>ahorrosgossler.page.index</route>
+            <icon>logo-min.png</icon>
+			<order>5</order>
+        </navigation>
+    </navigations>
+    <settings>
+        <admin>OCA\AhorrosGossler\Settings\settingsAdmin</admin>
+        <admin-section>OCA\AhorrosGossler\Sections\settingsAdmin</admin-section>
+        <settings>
+</settings>
+    </settings>
+</info>
